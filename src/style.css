@@ -1,0 +1,95 @@
+/* src/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to bottom, #000000d2, #172d63); /* Black and blueish gradient */
+    color: #fff; /* White text */
+    display: flex; /* Center the content horizontally and vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Take up the full height of the viewport */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .app {
+    max-width: 800px;
+    padding: 20px;
+    background-color: #353434; /* Darker background for the app container */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(12, 12, 12, 0.2);
+    background-image: linear-gradient(to bottom, #161515f1, #36333373); /* Linear gradient */
+    display: flex; /* Center the content horizontally and vertically */
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .quote-card {
+    background-color: #1d1b1b; /* Darker background for the quote card */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    background-image: linear-gradient(to bottom, #131212e0, #555); /* Linear gradient */
+  }
+  
+  .quote-text {
+    font-size: 24px; /* Larger font size */
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #87ceeb; /* Light blue text */
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Text shadow */
+  }
+  
+  .save-button {
+    background-color: #3498db; /* Blue button */
+    color: #fff;
+    padding: 15px 30px; /* Larger padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Button shadow */
+    background-image: linear-gradient(to bottom, #3498db, #2980b9); /* Linear gradient */
+    font-size: 18px; /* Larger font size */
+  }
+  
+  .save-button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); /* Increased shadow on hover */
+  }
+  
+  .save-button:active {
+    background-color: #1a73e8; /* Even darker blue on active */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6); /* Increased shadow on active */
+  }
+  
+  .quote-list {
+    margin-top: 20px;
+  }
+  
+  .quote-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .quote-list li {
+    padding: 15px; /* Larger padding */
+    border-bottom: 1px solid #444;
+    background-image: linear-gradient(to bottom, #2e2d2dee, #666); /* Linear gradient */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* List item shadow */
+    font-size: 18px; /* Larger font size */
+  }
+  
+  .quote-list li:last-child {
+    border-bottom: none;
+  }
+  
+  .quote-list li:hover {
+    background-color: #666; /* Darker background on hover */
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); /* Increased shadow on hover */
+  }
+
+  .title{
+    color: white;
+  }
